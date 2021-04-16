@@ -1,0 +1,1 @@
+# eaty-admin-client
