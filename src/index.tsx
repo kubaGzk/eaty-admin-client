@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "assets/css/material-dashboard-react.css?v=1.9.0";
 
 ReactDOM.render(
   <React.StrictMode>
