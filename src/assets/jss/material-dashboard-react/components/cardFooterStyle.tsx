@@ -1,4 +1,5 @@
 import { grayColor } from '../../material-dashboard-react';
+
 import { createStyles } from '@material-ui/core';
 
 const cardFooterStyle = createStyles({
@@ -11,15 +12,15 @@ const cardFooterStyle = createStyles({
     alignItems: 'center',
     display: 'flex',
     backgroundColor: 'transparent',
-    border: '0'
+    border: '0',
   },
   cardFooterProfile: {
-    marginTop: '-15px'
+    marginTop: '-15px',
   },
   cardFooterPlain: {
     paddingLeft: '5px',
     paddingRight: '5px',
-    backgroundColor: 'transparent'
+    backgroundColor: 'transparent',
   },
   cardFooterStats: {
     borderTop: '1px solid ' + grayColor[10],
@@ -30,19 +31,19 @@ const cardFooterStyle = createStyles({
       marginRight: '3px',
       marginLeft: '3px',
       width: '16px',
-      height: '16px'
+      height: '16px',
     },
     '& .fab,& .fas,& .far,& .fal,& .material-icons': {
       fontSize: '16px',
       position: 'relative',
       top: '4px',
       marginRight: '3px',
-      marginLeft: '3px'
-    }
+      marginLeft: '3px',
+    },
   },
   cardFooterChart: {
-    borderTop: '1px solid ' + grayColor[10]
-  }
+    borderTop: '1px solid ' + grayColor[10],
+  },
 });
 
 export default cardFooterStyle;

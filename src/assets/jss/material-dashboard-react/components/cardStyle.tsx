@@ -1,8 +1,9 @@
 import {
   blackColor,
   whiteColor,
-  hexToRgb
+  hexToRgb,
 } from '../../material-dashboard-react';
+
 import { createStyles } from '@material-ui/core';
 
 const cardStyle = createStyles({
@@ -20,22 +21,22 @@ const cardStyle = createStyles({
     flexDirection: 'column',
     minWidth: '0',
     wordWrap: 'break-word',
-    fontSize: '.875rem'
+    fontSize: '.875rem',
   },
   cardPlain: {
     background: 'transparent',
-    boxShadow: 'none'
+    boxShadow: 'none',
   },
   cardProfile: {
     marginTop: '30px',
-    textAlign: 'center'
+    textAlign: 'center',
   },
   cardChart: {
     '& p': {
       marginTop: '0px',
-      paddingTop: '0px'
-    }
-  }
+      paddingTop: '0px',
+    },
+  },
 });
 
 export default cardStyle;

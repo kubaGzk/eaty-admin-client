@@ -8,8 +8,9 @@ import {
   roseColor,
   whiteColor,
   blackColor,
-  hexToRgb
+  hexToRgb,
 } from '../../material-dashboard-react';
+
 import { createStyles } from '@material-ui/core';
 
 const buttonStyle = createStyles({
@@ -54,7 +55,7 @@ const buttonStyle = createStyles({
         hexToRgb(blackColor) +
         ', 0.12), 0 8px 10px -5px rgba(' +
         hexToRgb(grayColor[0]) +
-        ', 0.2)'
+        ', 0.2)',
     },
     '& .fab,& .fas,& .far,& .fal, &.material-icons': {
       position: 'relative',
@@ -64,7 +65,7 @@ const buttonStyle = createStyles({
       marginBottom: '-1em',
       fontSize: '1.1rem',
       marginRight: '4px',
-      verticalAlign: 'middle'
+      verticalAlign: 'middle',
     },
     '& svg': {
       position: 'relative',
@@ -73,7 +74,7 @@ const buttonStyle = createStyles({
       width: '18px',
       height: '18px',
       marginRight: '4px',
-      verticalAlign: 'middle'
+      verticalAlign: 'middle',
     },
     '&$justIcon': {
       '& .fab,& .fas,& .far,& .fal,& .material-icons': {
@@ -85,15 +86,15 @@ const buttonStyle = createStyles({
         top: '0px',
         height: '100%',
         lineHeight: '41px',
-        fontSize: '20px'
-      }
-    }
+        fontSize: '20px',
+      },
+    },
   },
   white: {
     '&,&:focus,&:hover': {
       backgroundColor: whiteColor,
-      color: grayColor[0]
-    }
+      color: grayColor[0],
+    },
   },
   rose: {
     backgroundColor: roseColor[0],
@@ -114,8 +115,8 @@ const buttonStyle = createStyles({
         hexToRgb(blackColor) +
         ', 0.12), 0 8px 10px -5px rgba(' +
         hexToRgb(roseColor[0]) +
-        ', 0.2)'
-    }
+        ', 0.2)',
+    },
   },
   primary: {
     backgroundColor: primaryColor[0],
@@ -136,8 +137,8 @@ const buttonStyle = createStyles({
         hexToRgb(blackColor) +
         ', 0.12), 0 8px 10px -5px rgba(' +
         hexToRgb(primaryColor[0]) +
-        ', 0.2)'
-    }
+        ', 0.2)',
+    },
   },
   info: {
     backgroundColor: infoColor[0],
@@ -158,8 +159,8 @@ const buttonStyle = createStyles({
         hexToRgb(blackColor) +
         ', 0.12), 0 8px 10px -5px rgba(' +
         hexToRgb(infoColor[0]) +
-        ', 0.2)'
-    }
+        ', 0.2)',
+    },
   },
   success: {
     backgroundColor: successColor[0],
@@ -180,8 +181,8 @@ const buttonStyle = createStyles({
         hexToRgb(blackColor) +
         ', 0.12), 0 8px 10px -5px rgba(' +
         hexToRgb(successColor[0]) +
-        ', 0.2)'
-    }
+        ', 0.2)',
+    },
   },
   warning: {
     backgroundColor: warningColor[0],
@@ -202,8 +203,8 @@ const buttonStyle = createStyles({
         hexToRgb(blackColor) +
         ', 0.12), 0 8px 10px -5px rgba(' +
         hexToRgb(warningColor[0]) +
-        ', 0.2)'
-    }
+        ', 0.2)',
+    },
   },
   danger: {
     backgroundColor: dangerColor[0],
@@ -224,81 +225,81 @@ const buttonStyle = createStyles({
         hexToRgb(blackColor) +
         ', 0.12), 0 8px 10px -5px rgba(' +
         hexToRgb(dangerColor[0]) +
-        ', 0.2)'
-    }
+        ', 0.2)',
+    },
   },
   simple: {
     '&,&:focus,&:hover': {
       color: whiteColor,
       background: 'transparent',
-      boxShadow: 'none'
+      boxShadow: 'none',
     },
     '&$rose': {
       '&,&:focus,&:hover,&:visited': {
-        color: roseColor[0]
-      }
+        color: roseColor[0],
+      },
     },
     '&$primary': {
       '&,&:focus,&:hover,&:visited': {
-        color: primaryColor[0]
-      }
+        color: primaryColor[0],
+      },
     },
     '&$info': {
       '&,&:focus,&:hover,&:visited': {
-        color: infoColor[0]
-      }
+        color: infoColor[0],
+      },
     },
     '&$success': {
       '&,&:focus,&:hover,&:visited': {
-        color: successColor[0]
-      }
+        color: successColor[0],
+      },
     },
     '&$warning': {
       '&,&:focus,&:hover,&:visited': {
-        color: warningColor[0]
-      }
+        color: warningColor[0],
+      },
     },
     '&$danger': {
       '&,&:focus,&:hover,&:visited': {
-        color: dangerColor[0]
-      }
-    }
+        color: dangerColor[0],
+      },
+    },
   },
   transparent: {
     '&,&:focus,&:hover': {
       color: 'inherit',
       background: 'transparent',
-      boxShadow: 'none'
-    }
+      boxShadow: 'none',
+    },
   },
   disabled: {
-    opacity: 0.65,
-    pointerEvents: 'none'
+    opacity: '0.65',
+    pointerEvents: 'none',
   },
   lg: {
     padding: '1.125rem 2.25rem',
     fontSize: '0.875rem',
     lineHeight: '1.333333',
-    borderRadius: '0.2rem'
+    borderRadius: '0.2rem',
   },
   sm: {
     padding: '0.40625rem 1.25rem',
     fontSize: '0.6875rem',
     lineHeight: '1.5',
-    borderRadius: '0.2rem'
+    borderRadius: '0.2rem',
   },
   round: {
-    borderRadius: '30px'
+    borderRadius: '30px',
   },
   block: {
-    width: '100% !important'
+    width: '100% !important',
   },
   link: {
     '&,&:hover,&:focus': {
       backgroundColor: 'transparent',
       color: grayColor[0],
-      boxShadow: 'none'
-    }
+      boxShadow: 'none',
+    },
   },
   justIcon: {
     paddingLeft: '12px',
@@ -308,7 +309,7 @@ const buttonStyle = createStyles({
     minWidth: '41px',
     width: '41px',
     '& .fab,& .fas,& .far,& .fal,& svg,& .material-icons': {
-      marginRight: '0px'
+      marginRight: '0px',
     },
     '&$lg': {
       height: '57px',
@@ -317,12 +318,12 @@ const buttonStyle = createStyles({
       lineHeight: '56px',
       '& .fab,& .fas,& .far,& .fal,& .material-icons': {
         fontSize: '32px',
-        lineHeight: '56px'
+        lineHeight: '56px',
       },
       '& svg': {
         width: '32px',
-        height: '32px'
-      }
+        height: '32px',
+      },
     },
     '&$sm': {
       height: '30px',
@@ -330,14 +331,14 @@ const buttonStyle = createStyles({
       width: '30px',
       '& .fab,& .fas,& .far,& .fal,& .material-icons': {
         fontSize: '17px',
-        lineHeight: '29px'
+        lineHeight: '29px',
       },
       '& svg': {
         width: '17px',
-        height: '17px'
-      }
-    }
-  }
+        height: '17px',
+      },
+    },
+  },
 });
 
 export default buttonStyle;

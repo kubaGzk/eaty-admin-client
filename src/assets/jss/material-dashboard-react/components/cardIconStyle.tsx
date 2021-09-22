@@ -5,8 +5,9 @@ import {
   infoCardHeader,
   primaryCardHeader,
   roseCardHeader,
-  grayColor
+  grayColor,
 } from '../../material-dashboard-react';
+
 import { createStyles } from '@material-ui/core';
 
 const cardIconStyle = createStyles({
@@ -17,15 +18,15 @@ const cardIconStyle = createStyles({
       padding: '15px',
       marginTop: '-20px',
       marginRight: '15px',
-      float: 'left'
-    }
+      float: 'left',
+    },
   },
   warningCardHeader,
   successCardHeader,
   dangerCardHeader,
   infoCardHeader,
   primaryCardHeader,
-  roseCardHeader
+  roseCardHeader,
 });
 
 export default cardIconStyle;
